@@ -1,0 +1,42 @@
+//package enode;
+
+import java.util.*;
+
+public class StaffMemberIterator implements EnterpriseNodeIterator<StaffMember>{
+
+	private SortedSet<StaffMember> allMembers;
+	private Iterator<StaffMember> iter;
+	
+	public StaffMemberIterator(Set<StaffMember> directSubordinates) {
+		if(directSubordinates == null) {
+			throw new NullPointerException();
+		}
+		allMembers = new TreeSet<StaffMember>();
+		allMembers.addAll(directSubordinates);
+		
+		for(StaffMember sm : directSubordinates) {
+			findSubordinatesRecursively(sm);
+		}
+		iter = allMembers.iterator();
+	}
+	
+	private void findSubordinatesRecursively(StaffMember m){
+        SortedSet<StaffMember> tmp = m.getDirectSubordinates();
+        allMembers.addAll(tmp);
+        for (StaffMember sm : tmp){
+            findSubordinatesRecursively(sm);
+        }
+    }
+	
+	@Override
+	public boolean hasNext() {
+		return iter.hasNext();
+	}
+
+	@Override
+	public StaffMember next() {
+		return iter.next();
+	}
+
+	
+}

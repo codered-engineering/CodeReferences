@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="partmanagement.PartType"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="reno.RenovationObject"/>
+    <fullyQualifiedTypeName name="prc.AbsoluteDiscountPricing"/>
+    <fullyQualifiedTypeName name="prc.PercentageDiscountPricing"/>
+    <fullyQualifiedTypeName name="prc.DiscountType"/>
+    <fullyQualifiedTypeName name="prc.ComplexPricing"/>
+    <fullyQualifiedTypeName name="prc.BestForCostumerPricing"/>
+    <fullyQualifiedTypeName name="prc.BestForStorePricing"/>
+    <fullyQualifiedTypeName name="prc.BestForCustomerPricing"/>
+    <fullyQualifiedTypeName name="prc.ISalePricing"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.dom.AbsoluteIterator"/>
+    <fullyQualifiedTypeName name="sun.security.x509.IssuerAlternativeNameExtension"/>
+    <fullyQualifiedTypeName name="eva.EventCatalog"/>
+    <fullyQualifiedTypeName name="eva.EventCatalogImpl"/>
+    <fullyQualifiedTypeName name="vecQ.ClockObserver"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="vecQ.VehicleQueue"/>
+    <fullyQualifiedTypeName name="vecQ.VehicleGenerator"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="jdk.internal.access.JavaAWTAccess"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="ci.JContent"/>
+    <fullyQualifiedTypeName name="bankak.hi.State.Posi"/>
+    <fullyQualifiedTypeName name="bankak.hi.State.Neg"/>
+    <fullyQualifiedTypeName name="bankak.BankAccount.AccountState.Positive"/>
+    <fullyQualifiedTypeName name="enode.EnterpriseNode"/>
+    <fullyQualifiedTypeName name="sun.awt.www.content.audio.aiff"/>
+    <fullyQualifiedTypeName name="enode.AbstractUnit"/>
+    <fullyQualifiedTypeName name="enode.AbstractEnterpriseUnit"/>
+    <fullyQualifiedTypeName name="enode.StaffMember"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+</qualifiedTypeNameHistroy>
