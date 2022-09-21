@@ -2,6 +2,6 @@
 
 - Java
 - Spring
-- C
 - Python
+  - Pandas
 - Unity
